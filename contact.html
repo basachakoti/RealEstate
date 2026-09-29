@@ -44,6 +44,29 @@
     <section class="contact-grid">
       <div class="contact-main">
         <article class="info-card">
+          <h2>Send us a message</h2>
+          <form class="contact-form" action="https://formsubmit.co/basachakoti@gmail.com" method="POST">
+            <input type="hidden" name="_subject" value="New website enquiry">
+            <div class="form-row">
+              <label>Name
+                <input type="text" name="name" autocomplete="name" required>
+              </label>
+              <label>Email
+                <input type="email" name="email" autocomplete="email" required>
+              </label>
+            </div>
+            <label>Phone
+              <input type="tel" name="phone" autocomplete="tel">
+            </label>
+            <label>Message
+              <textarea name="message" rows="5" required></textarea>
+            </label>
+            <button class="btn" type="submit">Send Message</button>
+          </form>
+          <p class="fineprint">Your message will be sent to <a href="mailto:basachakoti@gmail.com">basachakoti@gmail.com</a>.</p>
+        </article>
+
+        <article class="info-card">
           <h2>Start an email enquiry</h2>
           <div class="contact-links">
             <a href="mailto:info@vriddhibuildcon.com?subject=Enquiry%20via%20website&body=Hello%20Vriddhi%20Buildcon,%0A%0AI%20would%20like%20to%20know%20more%20about%20your%20projects.%0A%0AName:%0APhone:%0APreferred%20neighbourhood:%20Jayanagar%207th%20Block%20/%20Banashankari%202nd%20Stage%0A%0AThank%20you." class="action-link">General enquiry</a>
